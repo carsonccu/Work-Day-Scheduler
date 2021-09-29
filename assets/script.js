@@ -1,7 +1,13 @@
 // displays the date in the header
 var today = moment();
-var formattedToday = today.format("dddd, MMMM Mo");
+var formattedToday = today.format("dddd, MMMM Do");
 $("#currentDay").text(formattedToday);
 // var to format time to 24 hour 
-var currentTime = moment().format("H");
-var textbox = $(".col-md-10 description");
+
+let currentTime = moment().hour("H");
+console.log()
+
+function timeCompare() {
+    var blockhour = parseInt($(this).attr("id").split("hour")[1]);
+    console.log(blockhour, currentTime);
+}
