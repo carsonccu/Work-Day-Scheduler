@@ -20,3 +20,6 @@ $("#hour2 .description").val(localStorage.getItem("hour2"));
 $("#hour3 .description").val(localStorage.getItem("hour3"));
 $("#hour4 .description").val(localStorage.getItem("hour4"));
 $("#hour5 .description").val(localStorage.getItem("hour5"));
+
+// reads hours in military time
+var currentHour = Number(currentDay.format("H"));
