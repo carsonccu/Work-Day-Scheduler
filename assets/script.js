@@ -22,50 +22,52 @@ $("#hour4 .description").val(localStorage.getItem("hour4"));
 $("#hour5 .description").val(localStorage.getItem("hour5"));
 
 // reads hours in military time
-var currentTime = Number(currentDay.format("H"));
+
+
+var currentTime = Number(today.format("H"));
 
 if (currentTime === 9) {
-    $("#0").addClass("present");
+    $("#hour9").addClass("present");
 } else if (currentTime > 9) {
-    $("#0").addClass("past");
+    $("#hour9").addClass("past");
 };
 if (currentTime === 10) {
-    $("#1").addClass("present");
+    $("#hour10").addClass("present");
 } else if (currentTime > 10) {
-    $("#1").addClass("past");
+    $("#hour10").addClass("past");
 };
 if (currentTime === 11) {
-    $("#2").addClass("present");
+    $("#hour11").addClass("present");
 } else if (currentTime > 11) {
-    $("#2").addClass("past");
+    $("#hour11").addClass("past");
 };
 if (currentTime === 12) {
-    $("#3").addClass("present");
+    $("#hour12").addClass("present");
 } else if (currentTime > 12) {
-    $("#3").addClass("past");
+    $("#hour12").addClass("past");
 };
 if (currentTime === 13) {
-    $("#4").addClass("present");
+    $("#hour1").addClass("present");
 } else if (currentTime > 13) {
-    $("#4").addClass("past");
+    $("#hour1").addClass("past");
 };
 if (currentTime === 14) {
-    $("#5").addClass("present");
+    $("#hour2").addClass("present");
 } else if (currentTime > 14) {
-    $("#5").addClass("past");
+    $("#hour2").addClass("past");
 };
 if (currentTime === 15) {
-    $("#6").addClass("present");
+    $("#hour3").addClass("present");
 } else if (currentTime > 15) {
-    $("#6").addClass("past");
+    $("#hour3").addClass("past");
 };
 if (currentTime === 16) {
-    $("#7").addClass("present");
+    $("#hour4").addClass("present");
 } else if (currentTime > 16) {
-    $("#7").addClass("past");
+    $("#hour4").addClass("past");
 };
 if (currentTime === 17) {
-    $("#8").addClass("present");
+    $("#hour5").addClass("present");
 } else if (currentTime > 17) {
-    $("#8").addClass("past");
+    $("#hour5").addClass("past");
 };
