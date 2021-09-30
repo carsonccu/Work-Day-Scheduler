@@ -10,7 +10,7 @@ In this project we were required to create a schedule planner. The planner shoul
 
 ## Usage
 
-![Screen Recording](https://user-images.githubusercontent.com/80716109/135386233-8026e40c-debc-4222-a96b-cafc2cfb0bc5.mov)
+![ScreenShot](https://user-images.githubusercontent.com/80716109/135387171-bed02388-60a2-4c59-9a88-e5fb1596edad.png)
 
 ## Credits
 
@@ -21,4 +21,6 @@ In this project we were required to create a schedule planner. The planner shoul
 # Links
 
 [Link to Live Page] (http://carsonccu.github.io/Work-Day-Scheduler/)
-[Link to Repository](https://github.com/carsonccu/Work-Day-Scheduler)
+
+
+[link to repositoy] (https://github.com/carsonccu/Work-Day-Scheduler)
