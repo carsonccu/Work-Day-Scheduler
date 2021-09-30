@@ -23,7 +23,7 @@ $("#hour5 .description").val(localStorage.getItem("hour5"));
 
 // reads hours in military time
 
-
+// huge if statment to add the color changes based on the 24 hours in a day
 var currentTime = Number(today.format("H"));
 
 if (currentTime === 9) {
